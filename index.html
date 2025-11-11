@@ -17,4 +17,10 @@
   <body>
     <div class="container">测试页</div>
   </body>
+  <script>
+    console.log("hello world");
+    setTimeout(() => {
+      document.querySelector(".container").innerHTML = "hello world";
+    }, 1000);
+  </script>
 </html>
